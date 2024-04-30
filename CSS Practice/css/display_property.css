@@ -1,0 +1,41 @@
+.wrapper
+{
+    width: 50%;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul
+{
+    background-color: chocolate;
+    height: 50px;
+}
+
+li
+{
+    
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+li:hover
+{
+    opacity: 0.2;
+    
+}
+
+
+/*
+.comingsoon
+{
+    display: none
+}
+*/

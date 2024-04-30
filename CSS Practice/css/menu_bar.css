@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+.header
+{
+    position: fixed;
+    background-color: black;
+    top: 0; left: 0; right: 0;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header .logo
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px ;
+}
+
+.header .navbar ul
+{
+    list-style: none;
+}
+
+
+.header .navbar ul li
+{
+    position: relative;
+    float: left;
+    transition: background-color 1s;
+}
+
+.header .navbar ul li a
+{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+}
+
+.header .navbar ul li:hover
+{
+    background-color: grey;
+}
+
+
+
+.btn
+{  
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+
+button:hover{
+    background-color: rgb(41, 113, 185);
+    
+}
+
+
+
+
+
+header .navbar ul li ul
+{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: black;
+    display: none;
+}
+
+header .navbar ul li ul li
+{
+    width: 100%;
+    border-top: 1px  solid black;
+}
+
+
+
+header .navbar ul li:hover > ul
+{
+    display: initial;
+}
+
+
+
+
+
+
+
+
+#menubar
+{
+    display: none;
+}
+
+header label
+{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media(max-width:991px)
+{
+    header
+    {
+        padding: 20px;
+    }
+
+    header label
+    {
+        display: initial;
+    }
+}

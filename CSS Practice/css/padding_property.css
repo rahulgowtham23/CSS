@@ -1,0 +1,18 @@
+.wrapper
+{
+    width: 50%;
+    border: 2px solid green;
+    margin-left: 20%;
+}
+
+.head
+{
+    border: 1px solid blue;
+    padding: 15px;
+}
+
+.para
+{
+    border: 1px solid crimson;
+    padding: 15px;
+}

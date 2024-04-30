@@ -1,0 +1,242 @@
+
+/*.button-group
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 17px;
+}
+
+*/
+
+.button
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.button1
+{
+    background-color: red;
+    color: white;
+}
+
+.button2
+{
+    background-color: rgb(29, 161, 242);
+    color: white;   
+}
+
+.button3
+{
+    background-color: rgb(46, 164, 79);
+    color: white;
+}
+
+.button4
+{
+    background-color: rgb(255, 194, 28);
+}
+
+.button5
+{
+    background-color: teal;
+    color: white;
+}
+
+.button6
+{
+    background-color: black;
+    color: white;
+}
+
+.button7
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+.button5:hover
+{
+    opacity: 0.5;
+}
+
+.button6:hover
+{
+    opacity: 0.5;
+}
+
+.button7:hover
+{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+.btn1
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color: white;
+    border: 1px solid rgb(108, 117, 125);
+    cursor: pointer;
+    
+}
+
+.btn2
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color:grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn3
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color:white;
+    border: 1px solid rgb(29, 161, 242);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn4
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color:white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.btn5
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color:white;
+    border: 1px solid rgb(46, 164, 79);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.btn6
+{
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    background-color:red;
+    color: white;
+    font-size:17;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.btn7
+{
+    height: 50px;
+    width: 120px;
+    font-size: 17px;
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.rounded-button
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.rounded-btn1
+{
+    background-color: black;
+    color: white;
+}
+
+
+.rounded-btn2
+{
+    background-color: teal;
+    color: white;
+
+}
+
+
+.rounded-btn3
+{
+    background-color: gray;
+    color: black;
+    font-weight: lighter;
+}
+
+
+
+.button-group
+{
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.bt1
+{
+    background-color: black;
+    color: white;
+}
+
+.bt2
+{
+    background-color: teal;
+    color: white;
+}
+
+.bt3
+{
+    background-color: grey;
+    color: white;
+}
+
+.clear
+{
+    clear: both;
+}

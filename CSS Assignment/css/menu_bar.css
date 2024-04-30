@@ -1,0 +1,190 @@
+/*
+.menu-bar ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.menu-bar ul li
+{
+    padding: 10px 30px;
+}
+
+.menu-bar ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar li:hover
+{
+    opacity: 0.3;
+}
+*/
+
+
+/*
+li
+{
+    display: inline;
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+    margin-left: 50px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover
+{
+    opacity: 0.3;
+}
+
+*/
+
+
+
+/*
+.menu-bar
+{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+
+.logo
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.menu-bar ul
+{
+    list-style: none;
+}
+
+
+.menu-bar ul li 
+{
+    position: relative;
+    float: left;    
+}
+
+
+
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;     
+    transition: background-color 1s;
+}
+
+
+
+.menu-bar ul li a:hover
+{
+    background-color: rgb(108, 117, 125);
+}
+
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header
+{
+    background-color: black;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 7%;
+}
+
+
+.header .logo
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+
+.header .navbar ul
+{
+    list-style: none;
+}
+
+.header .navbar ul li
+{
+    position: relative;
+    float: left;
+
+    transition: background-color 1s;
+}
+
+.header .navbar ul li a
+{
+    color: white;
+    font-size: 20px;
+
+    padding: 20px;
+    display: block;
+}
+
+
+.header .navbar ul li:hover
+{
+    background-color: grey;
+}
+
+
+.header .navbar ul li ul
+{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: black;
+
+    display: none;
+}
+
+
+.header .navbar ul li ul li
+{
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+
+.header .navbar ul li:hover > ul 
+{
+    display: initial;
+}
+

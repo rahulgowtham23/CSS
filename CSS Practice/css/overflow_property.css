@@ -1,0 +1,8 @@
+#wrapper
+{
+    width: 95%;
+    max-width: 1200px;
+    height: 200%;
+    background-color: khaki;
+    overflow: auto;
+}

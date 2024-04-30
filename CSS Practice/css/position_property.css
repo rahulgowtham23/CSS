@@ -1,0 +1,25 @@
+.h1
+{
+    
+    background-color: gray;
+    padding: 10px;
+}
+
+.h2
+{
+    padding: 10px;
+    background-color: sandybrown;
+    position: relative;
+    left: 20px;
+    top: -30px;
+}
+
+.para
+{
+    background-color: seagreen;
+    padding: 10px;
+    position: relative;
+    left: 35px;
+    top: -55px;
+}
+

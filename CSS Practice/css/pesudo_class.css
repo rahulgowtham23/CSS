@@ -1,0 +1,30 @@
+.button:hover
+{
+    background-color: yellow;
+    color: red;
+}
+
+a:link
+{
+    color: red;
+}
+
+a:active
+{
+    color: blue;
+}
+
+a:visited
+{
+    color: green;
+}
+
+a:hover
+{
+    color: violet;
+}
+
+a:focus
+{
+    color: yellow;
+}

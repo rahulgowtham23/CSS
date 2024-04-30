@@ -1,0 +1,14 @@
+.para
+{
+    border: 1px solid crimson;
+    text-align: justify;
+    padding: 30px;
+    
+}
+
+.img
+{
+    float: left;
+    margin-right: 15px;
+    
+}

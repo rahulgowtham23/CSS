@@ -1,0 +1,22 @@
+.first-line::first-line
+{
+    
+    color: blue;
+}
+
+.first-letter::first-letter
+{
+    font-size: 40px;
+    color: red;
+}
+
+::marker
+{
+    color: rgb(102, 0, 255);
+}
+
+.selection_element::selection
+{
+    background-color: yellow;
+    color: red;
+}

@@ -1,0 +1,29 @@
+.text_color
+{
+    color: aqua;
+}
+
+.text_align
+{
+    text-align: right;
+}
+
+.text_align_justify
+{
+    text-align: justify;
+}
+
+.capitalize
+{
+    text-transform: capitalize;
+}
+
+.text_decoration_none
+{
+    text-decoration: none;
+}
+
+.text_indent
+{
+    text-indent: 50px;
+}
